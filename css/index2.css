@@ -1,0 +1,128 @@
+body {
+	background-color: rgb(39,0,64) ;
+	margin:0;
+}
+
+nav {
+	background-color: rgb(229,103,0);
+	margin-top: -17px;
+	height: 20vh;
+	width: 100vw;
+}
+
+nav ul {
+	text-align: center;
+	padding-left: 450px;
+	padding-top: 90px;
+}
+
+nav ul li {
+	position:relative;
+	list-style: none;
+	display: inline;
+	font-family: chiller;
+	font-size: 22pt;
+	margin-left: 120px;
+	font-weight: bold;
+	color: white;
+	z-index:0;
+}
+
+nav ul li:hover{
+	background-color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 7px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#topBorder {
+	position:absolute;
+	background-color: black;
+	height: 50vh;
+	width: 100vw;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+	z-index:1;
+}
+
+#bttmBorder {
+	position:absolute;
+	background-color: black;
+	height: 50vh;
+	width: 100vw;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+	z-index: 1;
+}
+
+
+#logo{
+	float:left;
+	margin-top: 15px;
+}
+
+#box1 {
+	background-color: rgb(229,103,0);
+	float: left;
+	text-align:center;
+	border:solid 1px black;
+	height: 460px;
+	width: 350px;
+	margin-top: 80px;
+	margin-left: 70px;
+	border-radius: 15px;
+	font-weight: bold;
+	box-shadow: 5px 5px 2px black;
+}
+
+#box2 {
+	background-color: rgb(229,103,0);
+	float: left;
+	text-align: center;
+	border:solid 1px black;
+	height: 460px;
+	width: 350px;
+	margin-top: 80px;
+	margin-left: 80px;
+	border-radius: 15px;
+	font-weight: bold;
+	box-shadow: 5px 5px 2px black;
+}
+
+#box3 {
+	background-color: rgb(229,103,0);
+	float: left;
+	border:solid 1px black;
+	text-align: center;
+	height: 460px;
+	width: 350px;
+	margin-top: 80px;
+	margin-left: 75px;
+	border-radius: 15px;
+	font-weight: bold;
+	box-shadow: 5px 5px 2px black;
+}
+
+#witch {
+	width: 1200px;
+	height: 100px;
+	background-color: rgb(229,103,0);
+	position: relative;
+	margin-top: 80px;
+	border-radius: 5px;
+	margin-left: -1300px;
+}
+
+.witch2 {
+	float:right;
+}
+
+h1{
+	color:white;
+	font-family: chiller;
+	font-size:30pt;
+}
